@@ -1,0 +1,10 @@
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\bin\Debug\JAlbertDigitalClock.exe.config
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\bin\Debug\JAlbertDigitalClock.exe
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\bin\Debug\JAlbertDigitalClock.pdb
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.csproj.AssemblyReference.cache
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.DigitalClock.resources
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.Properties.Resources.resources
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.csproj.GenerateResource.cache
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.csproj.CoreCompileInputs.cache
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.exe
+C:\Users\jenni\OneDrive\Projects\DigitalClockProject\JAlbertDigitalClock\obj\Debug\JAlbertDigitalClock.pdb
