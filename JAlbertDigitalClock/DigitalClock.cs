@@ -17,14 +17,25 @@ namespace JAlbertDigitalClock
             InitializeComponent();
         }
 
+        private void DigitalClock_Load_1(object sender, EventArgs e)
+        {
+            
+        }
         private void clockTimer_Tick(object sender, EventArgs e)
         {
             clockLabel.Text = DateTime.Now.ToString("hh:mm:ss");
         }
-
-        private void DigitalClock_Load_1(object sender, EventArgs e)
+        private void timerStop_Click(object sender, EventArgs e)
+        {
+            clockTimer.Stop();
+        }
+        private void timerStart_Click(object sender, EventArgs e)
         {
             clockTimer.Start();
         }
+
+ 
+
+
     }
 }
