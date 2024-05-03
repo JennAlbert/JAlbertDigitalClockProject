@@ -1,4 +1,6 @@
-﻿namespace JAlbertDigitalClock
+﻿using System;
+
+namespace JAlbertDigitalClock
 {
     partial class DigitalClock
     {
@@ -33,6 +35,9 @@
             this.clockLabel = new System.Windows.Forms.Label();
             this.timerStart = new System.Windows.Forms.Button();
             this.timerStop = new System.Windows.Forms.Button();
+            this.pacificTime = new System.Windows.Forms.Button();
+            this.centralTime = new System.Windows.Forms.Button();
+            this.mountainTime = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // clockTimer
@@ -71,12 +76,45 @@
             this.timerStop.UseVisualStyleBackColor = true;
             this.timerStop.Click += new System.EventHandler(this.timerStop_Click);
             // 
+            // pacificTime
+            // 
+            this.pacificTime.Location = new System.Drawing.Point(324, 403);
+            this.pacificTime.Name = "pacificTime";
+            this.pacificTime.Size = new System.Drawing.Size(75, 23);
+            this.pacificTime.TabIndex = 3;
+            this.pacificTime.Text = "Pacific";
+            this.pacificTime.UseVisualStyleBackColor = true;
+            this.pacificTime.Click += new System.EventHandler(this.pacificTime_Click);
+            // 
+            // centralTime
+            // 
+            this.centralTime.Location = new System.Drawing.Point(559, 403);
+            this.centralTime.Name = "centralTime";
+            this.centralTime.Size = new System.Drawing.Size(75, 23);
+            this.centralTime.TabIndex = 4;
+            this.centralTime.Text = "Central";
+            this.centralTime.UseVisualStyleBackColor = true;
+            this.centralTime.Click += new System.EventHandler(this.centralTime_Click);
+            // 
+            // mountainTime
+            // 
+            this.mountainTime.Location = new System.Drawing.Point(439, 403);
+            this.mountainTime.Name = "mountainTime";
+            this.mountainTime.Size = new System.Drawing.Size(87, 23);
+            this.mountainTime.TabIndex = 5;
+            this.mountainTime.Text = "Mountain";
+            this.mountainTime.UseVisualStyleBackColor = true;
+            this.mountainTime.Click += new System.EventHandler(this.mountainTime_Click);
+            // 
             // DigitalClock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(935, 450);
+            this.Controls.Add(this.mountainTime);
+            this.Controls.Add(this.centralTime);
+            this.Controls.Add(this.pacificTime);
             this.Controls.Add(this.timerStop);
             this.Controls.Add(this.timerStart);
             this.Controls.Add(this.clockLabel);
@@ -91,12 +129,17 @@
 
         }
 
+   
+
         #endregion
 
         private System.Windows.Forms.Timer clockTimer;
         private System.Windows.Forms.Label clockLabel;
         private System.Windows.Forms.Button timerStart;
         private System.Windows.Forms.Button timerStop;
+        private System.Windows.Forms.Button pacificTime;
+        private System.Windows.Forms.Button centralTime;
+        private System.Windows.Forms.Button mountainTime;
     }
 }
 
